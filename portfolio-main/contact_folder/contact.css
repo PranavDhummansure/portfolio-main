@@ -1,0 +1,238 @@
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PP mori;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.circle {
+    height: 0.1vw;
+    width: 0.1vw;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+  }
+.main{
+    background-color: #0F0D0D;
+    cursor: none;
+}
+#nav{
+    height: 55px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index:102;
+}
+#nav img{
+    height: 27px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#nav-part2 h4 a {
+    text-decoration: none;
+}
+#nav-part2 h4:hover a{
+    border-bottom: 2px solid white;
+    transition: ease-in-out 0.4s ;
+}
+
+
+#nav #circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#nav h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav h4:nth-child(1){
+    border-bottom: 1.5px solid #fff;
+}
+#page6{
+    height: 90vh;
+    width: 100%;
+    position: relative;
+}
+#page6 h1 {
+    font-size: 4vw;
+    color: #442f35;
+    margin-top: 5vh;
+    border-bottom: 1px solid rgb(209, 203, 203);
+    
+    
+}
+#page6 h5 {
+    font-size: 2vw;
+    color: #583C44;
+    margin-top: 6vh;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+#page6 .form {
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+textarea {
+    color: #583C44;
+    height: 20vh;
+    width: 20vw;
+    font-size: 2vw;
+    margin-left: 0.4vw;
+    margin-top: 10vh;
+    background-color: #EF936E;
+    border: none;
+    z-index: 999;
+   
+}
+textarea::placeholder {
+    text-align: center;
+    padding-top: 15%;
+    color: #535151;
+    font-weight: 600;
+    text-transform: capitalize;
+    z-index: 999;
+}
+
+input{
+    color: #583C44;
+    width: 15vw;
+    height: 6vh;
+    border: none;
+    background-color: #EF936E;
+    padding-left: 2vw;
+    z-index: 999;
+}
+input::placeholder{
+    color: #583C44;
+    text-transform: capitalize;
+    border-bottom: 1px solid grey;
+    z-index: 999;
+}
+
+
+.form {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5vh;
+    min-height: 80vh;
+    width: 80vh;
+    display: inline-block;
+   
+    margin-left: 55%;
+    border-radius: 20px;
+   
+    z-index: 999;
+
+}
+.form>img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-image: cover;
+    background-position: center;
+    margin-left: -18.5vw;
+    z-index: -1;
+    border-radius: 20px;
+}
+.form button {
+    height: 8vh;
+    width: 8vw;
+    background-color: #583C44;
+    border-radius: 1vw ;
+    border: 2px solid rgb(36, 35, 35);
+    box-shadow: 2px 0px 10px 2px rgb(84, 79, 85);
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    z-index: 999;
+    color:#EF936E;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+.form button:hover {
+    background-color: #EF936E;
+    z-index: 999;
+    color:#583C44;
+}
+.firstimg {
+    height: 40vh;
+    width: 20vw;
+    position: absolute;
+    margin-top: 23%;
+    margin-left: 29%;
+
+}
+.firstimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.secondimg {
+    height: 40vh;
+    width: 25vw;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 2%;
+}
+.secondimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.thirdimg {
+    height: 40vh;
+    width: 25vw;
+    position: absolute;
+    margin-top: 2%;
+    margin-left: 23%;
+}
+.thirdimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.fourthimg {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    
+}
+.fourthimg img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}

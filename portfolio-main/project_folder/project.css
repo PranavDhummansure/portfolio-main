@@ -1,0 +1,112 @@
+@font-face {
+    font-family: PP mori;
+    src: url(./ppmori.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: PP mori;
+    color: #fff;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+.circle {
+    height: 0.1vw;
+    width: 0.1vw;
+    border-radius: 50%;
+    background-color: black;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 99999999; /* so that it stays on top of all other elements */
+  }
+.main{
+    background-color: #ffffff;
+    cursor: none;
+}
+#nav{
+    height: 55px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    position: fixed;
+    mix-blend-mode: difference;
+    z-index:102;
+}
+#nav img{
+    height: 27px;
+}
+#nav-part2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#nav-part2 h4 a {
+    text-decoration: none;
+}
+#nav-part2 h4:hover a{
+    border-bottom: 2px solid white;
+    transition: ease-in-out 0.4s ;
+}
+
+
+#nav #circle{
+    height: 18px;
+    width: 18px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+#nav h4{
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#nav h4:nth-child(1){
+    border-bottom: 1.5px solid #fff;
+}
+.page3{
+    min-height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    position: relative;
+    z-index: 9;
+}
+#string0 {
+    height: 100px;
+    
+    z-index: 12;
+    position: relative;
+  }
+.page3 h1{
+    margin-top: -10vh;
+    font-size: 6.8vw;
+    font-weight: 300;
+    color: #111;
+    margin-left: 30%;
+}
+ #shal{
+   height: 70vh;
+   width: 60%;
+   margin-left: 2vw;
+}
+
+
+#shal img{
+    height: 100%;
+    width: 100%;
+   background-image: cover;
+    object-fit: cover;
+
+   
+    
+}

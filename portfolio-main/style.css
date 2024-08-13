@@ -42,16 +42,6 @@ html, body {
     background-color: #0F0D0D;
     cursor: none;
 }
-
-.page1{
-    min-height: 100vh;
-    width: 100%;
-    position: relative;
-    z-index: 9;
-    padding-top: 12vw;
-}
-
-
 #nav{
     height: 55px;
     width: 100%;
@@ -104,6 +94,13 @@ html, body {
 
     margin-left: 6vw;
     transform-origin: left;
+}
+.page1{
+    min-height: 100vh;
+    width: 100%;
+    position: relative;
+    z-index: 9;
+    padding-top: 12vw;
 }
 .page1 h2{
     font-size: 8vw;
@@ -213,8 +210,67 @@ html, body {
     color: #000;
   
 }
-
-
+.redirect h2 i{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    
+}
+.redirect h2 a{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    
+}
+.redirect1 h2 i{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    
+}
+.redirect1 h2 a{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    
+}
+.redirect1{
+    position: absolute;
+    margin-top: -20%;
+    margin-left: 70%;
+}
+.redirect2{
+    margin-top: 20%;
+    color: #fff;
+    margin-left: 40%;
+}
+.redirect2 h2 i{
+    font-size: large;
+    color: #ffffff;
+    font-size: 2vw;
+    
+}
+.redirect2 h2 a{
+    font-size: large;
+    color: #ffffff;
+    font-size: 2vw;
+    
+}
+.redirect3{
+    margin-top: -5%;
+}
+.redirect3 h2 i{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    
+}
+.redirect3 h2 a{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    
+}
 .page3{
     min-height: 100vh;
     width: 100%;
