@@ -1,19 +1,26 @@
 @font-face {
     font-family: PP mori;
-    src: url(./ppmori.ttf);
+    src: url(portfolio-main\ppmori.ttf);
 }
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: PP mori;
-    color: #fff;
+body{
+    background-size: 100%;
+    background: url("https://applemagazine.com/wp-content/uploads/2022/06/AppleMagazine2-1536x1536.webp");
+    background-position: center;
+    
+    
 }
-
-html, body {
-    height: 100%;
-    width: 100%;
+.container {
+    height: 70vh;
+    width: 100vh;
+    margin: 20vh 27vw;
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 .circle {
     height: 0.1vw;
@@ -26,21 +33,25 @@ html, body {
     pointer-events: none;
     z-index: 99999999; /* so that it stays on top of all other elements */
   }
-.main{
-    background-color: #0F0D0D;
-    cursor: none;
-}
+
 #nav{
     height: 55px;
     width: 100%;
-    /* background-color: red; */
+     
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 30px;
     position: fixed;
-    mix-blend-mode: difference;
+    color: aqua;
+    font-weight: 900;
     z-index:102;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 #nav img{
     height: 27px;
@@ -53,6 +64,8 @@ html, body {
 }
 #nav-part2 h4 a {
     text-decoration: none;
+    color: #1bf0de;
+    font-weight: 900;
 }
 #nav-part2 h4:hover a{
     border-bottom: 2px solid white;
@@ -71,43 +84,25 @@ html, body {
     font-weight: 500;
     text-transform: uppercase;
 }
-#nav h4:nth-child(1){
+#nav h4:nth-child(5){
     border-bottom: 1.5px solid #fff;
-}
-#page6{
-    height: 90vh;
-    width: 100%;
-    position: relative;
-}
-#page6 h1 {
-    font-size: 4vw;
-    color: #442f35;
-    margin-top: 5vh;
-    border-bottom: 1px solid rgb(209, 203, 203);
-    
     
 }
-#page6 h5 {
-    font-size: 2vw;
-    color: #583C44;
-    margin-top: 6vh;
-    text-transform: capitalize;
-    font-weight: 900;
-}
-#page6 .form {
-    align-items: center;
-    justify-content: center;
-    
-   
-}
+
 textarea {
     color: #583C44;
     height: 20vh;
     width: 20vw;
     font-size: 2vw;
-    margin-left: 0.4vw;
-    margin-top: 10vh;
-    background-color: #EF936E;
+    margin-left: 3vw;
+    margin-top: 1vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   
     border: none;
     z-index: 999;
    
@@ -126,7 +121,12 @@ input{
     width: 15vw;
     height: 6vh;
     border: none;
-    background-color: #EF936E;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     padding-left: 2vw;
     z-index: 999;
 }
@@ -136,103 +136,59 @@ input::placeholder{
     border-bottom: 1px solid grey;
     z-index: 999;
 }
-
+.form h1 {
+    font-size: 3vw;
+    color: rgb(6, 52, 90);
+   
+    
+}
+.form #this {
+    padding-left: 15%;
+    border-bottom: 0.5px solid  rgb(6, 52, 90);
+}
 
 .form {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+    position: absolute;
+    
     margin-top: 5vh;
     min-height: 80vh;
     width: 80vh;
     display: inline-block;
    
-    margin-left: 55%;
+    margin-left: 15%;
     border-radius: 20px;
    
     z-index: 999;
 
 }
-.form>img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-image: cover;
-    background-position: center;
-    margin-left: -18.5vw;
-    z-index: -1;
-    border-radius: 20px;
-}
+
 .form button {
     height: 8vh;
     width: 8vw;
+    position: absolute;
     background-color: #583C44;
     border-radius: 1vw ;
-    border: 2px solid rgb(36, 35, 35);
-    box-shadow: 2px 0px 10px 2px rgb(84, 79, 85);
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-left: 70%;
+    margin-top: -15%;
     z-index: 999;
-    color:#EF936E;
+    color:  rgb(6, 52, 90);
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 600;
 }
 .form button:hover {
-    background-color: #EF936E;
+   
     z-index: 999;
-    color:#583C44;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-.firstimg {
-    height: 40vh;
-    width: 20vw;
-    position: absolute;
-    margin-top: 23%;
-    margin-left: 29%;
 
-}
-.firstimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.secondimg {
-    height: 40vh;
-    width: 25vw;
-    position: absolute;
-    margin-top: 10%;
-    margin-left: 2%;
-}
-.secondimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.thirdimg {
-    height: 40vh;
-    width: 25vw;
-    position: absolute;
-    margin-top: 2%;
-    margin-left: 23%;
-}
-.thirdimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.fourthimg {
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    
-}
-.fourthimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}

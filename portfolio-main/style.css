@@ -515,6 +515,7 @@ input::placeholder{
     position: absolute;
     margin-top: 23%;
     margin-left: 29%;
+    border-radius: 20px;
 
 }
 .firstimg img {
@@ -522,13 +523,15 @@ input::placeholder{
     width: 100%;
     object-fit: cover;
     object-position: center;
+  
 }
 .secondimg {
     height: 40vh;
     width: 25vw;
     position: absolute;
-    margin-top: 10%;
+    margin-top: 16%;
     margin-left: 2%;
+    border-radius: 6vw ;
 }
 .secondimg img {
     height: 100%;
@@ -550,14 +553,19 @@ input::placeholder{
     object-position: center;
 }
 .fourthimg {
-    height: 100%;
-    width: 100%;
+    height: 40%;
+    width: 40%;
     position: absolute;
+
+
     
 }
 .fourthimg img {
     height: 100%;
-    width: 100%;
+    width: 50%;
     object-fit: cover;
     object-position: center;
+}
+.allimg {
+    border-radius: 40%;
 }

@@ -122,14 +122,30 @@ var tl4 = gsap.timeline({
         trigger: ".page1 h1",
         scroller: ".main",
         // markers:true,
-        start: "top -530%",
-        end: "top -535%",   
+        start: "top -570%",
+        end: "top -575%",   
         scrub: 3
     }
 })
 
 tl4.to(".main",{
+
     backgroundColor:"#fff"
+})
+tl4.to("#bulb #oneplus",{
+
+    opacity:1,
+    duration:1,
+    delay:1,
+   
+    ease:"linear"
+})
+tl4.to("#bulb #twoplus",{
+
+    opacity:0,
+   
+    duration:7,
+    ease:"linear"
 })
 
 
