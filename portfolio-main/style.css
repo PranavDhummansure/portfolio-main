@@ -228,6 +228,13 @@ html, body {
     font-size: 2vw;
     
 }
+.redirect1 h3 li{
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    line-height: 8vh;
+    
+}
 .redirect1 h2 a{
     font-size: large;
     color: #000;
@@ -236,8 +243,9 @@ html, body {
 }
 .redirect1{
     position: absolute;
-    margin-top: -20%;
+    margin-top: -30%;
     margin-left: 70%;
+    color: #000;
 }
 .redirect2{
     margin-top: 20%;
@@ -289,13 +297,13 @@ html, body {
     font-size: 6.8vw;
     font-weight: 300;
     color: #111;
-    margin-left: 30%;
+    margin-left: 16%;
 }
- #shal{
+ .emu{
    height: 70vh;
    width: 60%;
-   margin-left: 2vw;
-
+   margin-left: 3%;
+margin-top: 4%;
 
  
 
@@ -306,7 +314,7 @@ html, body {
 width:80px;
 
 }
-#shal img{
+.emu img{
     height: 100%;
     width: 100%;
    background-image: cover;
@@ -323,6 +331,49 @@ width:80px;
     position: relative;
     padding: 170px 100px;
 }
+#GOLA {
+    height: 6vh;
+    width: 3vw;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: #0bcf9e;
+    
+    margin: 1vw 2vw;
+  }
+  #goladiv {
+    white-space: nowrap;
+    justify-content: center;
+    display: flex;
+    height: 200px;
+  }
+  .page4 #goladiv h1 {
+    font-size: 14vh;
+    color: #c8c6c9;
+    font-family: bigone;
+    padding: 14vh 1vh;
+    animation-name: movetext;
+    animation-duration: 12s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    margin-top: -23vh;
+  }
+  .page4 #goladiv:hover h1 {
+    font-size: 14vh;
+    color: #32dada;
+   
+
+  }
+  .page4 #goladiv:hover #GOLA {
+     background-color: #ffffff;
+  }
+  @keyframes movetext {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-100%);
+    }
+  }
 .elem{
     /* background-color: salmon; */
     margin-bottom: 10px;
@@ -374,7 +425,8 @@ width:80px;
     width: 100%;
     position: relative;
     z-index: 9;
-    padding: 140px 100px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 .page5 h2{
     font-size: 6vw;

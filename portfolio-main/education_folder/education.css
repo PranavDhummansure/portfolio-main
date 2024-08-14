@@ -72,7 +72,7 @@ html, body {
     font-weight: 500;
     text-transform: uppercase;
 }
-#nav h4:nth-child(1){
+#nav h4:nth-child(4){
     border-bottom: 1.5px solid #fff;
 }
 .page4{
@@ -125,4 +125,73 @@ html, body {
     opacity: 1;
     transform: translateY(0%) rotate(0deg);
 
+}
+.redirectback {
+    margin-left: 40%;
+    margin-top: 10%;
+}
+.redirectback h2 a{
+   color: #fff;
+}
+#page2 {
+    min-height: 140vh;
+    width: 100%;
+    background-color: #0F0D0D;
+    color: #fff;
+}
+details {
+    margin-left: 2%;
+    transition: ease 0.4s linear;
+    font-size: 2em;
+}
+.clg {
+    margin-left: 30%;
+}
+.clg2 {
+    margin-left: 70%;
+    
+}
+.rdu {
+    margin-top: -20vh;
+    height: 60vh;
+    width: 50vh;
+    margin-left: 1%;
+    
+}
+.rdu img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.rdu1 {
+    margin-top: -40vh;
+    height: 60vh;
+    width: 60vh;
+    margin-left: 33%;
+}
+.rdu1 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.rdu2 {
+    margin-top: -20vh;
+    height: 60vh;
+    width: 60vh;
+    margin-left: 70%;
+    margin-top: -45vh;
+}
+.rdu2 img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.last h2 {
+    margin-top: -3%;
+    margin-left: 4%;
+}
+.last h3 {
+    margin-top: 3%;
+    margin-left: 76%;
+    font-size: 2em;
 }
