@@ -265,7 +265,8 @@ html, body {
     
 }
 .redirect3{
-    margin-top: -5%;
+    margin-top: 35%;
+    margin-left: 75%;
 }
 .redirect3 h2 i{
     font-size: large;
@@ -455,6 +456,9 @@ width:80px;
     height: 90vh;
     width: 100%;
     position: relative;
+    overflow: hidden;
+    background: linear-gradient(to top,orange,white);
+  
 }
 #page6 h1 {
     font-size: 4vw;
@@ -477,21 +481,44 @@ width:80px;
     
    
 }
+.container {
+    height: 64vh;
+    width: 100vh;
+    margin: 1vh 2vw;
+}
+.glass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+}
+
+
+
+
 textarea {
     color: #583C44;
-    height: 20vh;
-    width: 20vw;
+    height: 16vh;
+    width: 30vw;
     font-size: 2vw;
-    margin-left: 0.4vw;
-    margin-top: 10vh;
-    background-color: #EF936E;
+    margin-left: -5vw;
+    margin-top: 1vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+   
     border: none;
     z-index: 999;
    
 }
 textarea::placeholder {
     text-align: center;
-    padding-top: 15%;
+    padding-top: 9%;
     color: #535151;
     font-weight: 600;
     text-transform: capitalize;
@@ -501,9 +528,14 @@ textarea::placeholder {
 input{
     color: #583C44;
     width: 15vw;
-    height: 6vh;
+    height: 9vh;
     border: none;
-    background-color: #EF936E;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
     padding-left: 2vw;
     z-index: 999;
 }
@@ -513,111 +545,168 @@ input::placeholder{
     border-bottom: 1px solid grey;
     z-index: 999;
 }
-
+.form h1 {
+    font-size: 0.5em;
+    color: rgb(6, 52, 90);
+   
+    
+}
+.form #this {
+    padding-left: 10%;
+    border-bottom: 0.5px solid  rgb(6, 52, 90);
+}
 
 .form {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    margin-top: 5vh;
+    position: absolute;
+    
+    margin-top: 0vh;
     min-height: 80vh;
     width: 80vh;
     display: inline-block;
    
-    margin-left: 55%;
+    margin-left: 15%;
     border-radius: 20px;
    
     z-index: 999;
 
 }
-.form>img {
-    object-fit: cover;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    background-image: cover;
-    background-position: center;
-    margin-left: -18.5vw;
-    z-index: -1;
-    border-radius: 20px;
-}
+
 .form button {
     height: 8vh;
     width: 8vw;
+    position: absolute;
     background-color: #583C44;
     border-radius: 1vw ;
-    border: 2px solid rgb(36, 35, 35);
-    box-shadow: 2px 0px 10px 2px rgb(84, 79, 85);
-    margin-top: 3vh;
-    margin-bottom: 3vh;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    margin-left: 70%;
+    margin-top: -15%;
     z-index: 999;
-    color:#EF936E;
+    color:  rgb(6, 52, 90);
     font-size: 1.5vw;
-    font-weight: 100;
+    font-weight: 600;
 }
 .form button:hover {
-    background-color: #EF936E;
+   
     z-index: 999;
-    color:#583C44;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.671), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
-.firstimg {
+
+.imj{
     height: 40vh;
     width: 20vw;
-    position: absolute;
-    margin-top: 23%;
-    margin-left: 29%;
-    border-radius: 20px;
-
-}
-.firstimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-  
-}
-.secondimg {
-    height: 40vh;
-    width: 25vw;
-    position: absolute;
-    margin-top: 16%;
-    margin-left: 2%;
-    border-radius: 6vw ;
-}
-.secondimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.thirdimg {
-    height: 40vh;
-    width: 25vw;
-    position: absolute;
-    margin-top: 2%;
-    margin-left: 23%;
-}
-.thirdimg img {
-    height: 100%;
-    width: 100%;
-    object-fit: cover;
-    object-position: center;
-}
-.fourthimg {
-    height: 40%;
-    width: 40%;
-    position: absolute;
-
-
     
+    border-radius: 50%;
+    margin-left: 0;
+    position: absolute;
+   margin-right: 7%;
+    margin-top: 35vh;
+    right: 0;
+    
+    
+
 }
-.fourthimg img {
+.imj img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.imk {
+
+ height: 40vh;
+    width: 25vw;
+    
+    border-radius: 50%;
+    margin-right: 23%;
+    position: absolute;
+   bottom: 0;
+   right: 0;
+    margin-bottom: 14vh;
+
+}
+.imk img {
     height: 100%;
-    width: 50%;
-    object-fit: cover;
-    object-position: center;
+    width: 100%;
+    background-image: cover;
+ 
+ }
+ .iml {
+    height: 20vh;
+    width: 10vw;
+    
+    border-radius: 50%;
+    margin-right: 14%;
+    position: absolute;
+   margin-top: 27vh;
+   right: 0;
+  
+   
+
 }
-.allimg {
-    border-radius: 40%;
+.iml img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+
+}
+.imz{
+    height: 40vh;
+    width: 29vw;
+    
+    border-radius: 50%;
+    
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 36vh;
+   
+
+
+}
+.imz img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.imx {
+    height: 60vh;
+    width: 23vw;
+    
+    border-radius: 50%;
+    margin-top: 20vh;
+    position: absolute;
+    margin-left: 76%;
+    margin-top: 30vh;
+    
+
+}
+.imx img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.jogfalls {
+    height: 18vh;
+    width: 95vw;
+    margin: 2.7vh 2vw;
+}
+.mass{
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }

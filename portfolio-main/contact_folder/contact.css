@@ -192,3 +192,24 @@ input::placeholder{
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
 
+.last h2 {
+    margin-top: -3%;
+    margin-left: -80%;
+    color: aqua;
+}
+.last h2 a{
+   
+    color: rgb(92, 14, 14);
+}
+
+
+.last h3 a {
+   
+    color: aqua;
+}
+.last h3 {
+    margin-top: -13%;
+    margin-left: 136%;
+    font-size: 1.2em;
+    color: aqua;
+}
