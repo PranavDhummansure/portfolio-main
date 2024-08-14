@@ -1,21 +1,5 @@
 
-var path = "M 10 100 Q 500 100 1350 100"
-var finalPath = "M 10 100 Q 500 100 1350 100"
-var string = document.querySelector("#string0")
-string.addEventListener("mousemove", function (dets) { path = `M 10 100 Q ${dets.x} ${dets.y} 1350 100`
-gsap.to("svg path", {
-attr: { d: path },
-duration:0.3,
-ease:"power3.out"
-})
-})
-string.addEventListener("mouseleave", function(){
-gsap.to("svg path", {
-attr:{d:finalPath},
-duration:1.5,
-ease: "elastic.out(1,0.2)"
-})
-})
+
 
 const coords = { x: 0, y: 0 };
 const circles = document.querySelectorAll(".circle");
@@ -112,4 +96,11 @@ var main = document.querySelector(".main")
 document.addEventListener("mousemove",function(dets){
   circle.style.left = dets.x + 20+"px"
   circle.style.top = dets.y + 20+"px"
+})
+gsap.to(".op",{
+  x:1500,
+  duration:7,
+  repeat:-1,
+  delay:1,
+  ease:"linear"
 })
