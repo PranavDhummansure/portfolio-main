@@ -10,4 +10,4 @@
 *CONTROLKIT(for debug panel)
 *THREEJS
 
- LINK TO MY PORTFOLIO="https://pranavdhummansure.github.io/portfolio-main/"
+ LINK TO MY PORTFOLIO="https://pranavdhummansure.github.io/portfolio-main/portfolio-main/"
