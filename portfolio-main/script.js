@@ -401,4 +401,11 @@ gsap.to('.imj',{
     }
   });
     
-    
+  gsap.to(".op",{
+    x:1500,
+    duration:7,
+    repeat:-1,
+    delay:1,
+    ease:"linear"
+  })
+  

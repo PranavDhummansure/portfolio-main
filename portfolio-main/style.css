@@ -170,13 +170,21 @@ html, body {
     opacity: 0;
    
 }
+.page2-left meter{
+    
+    width:80px;
+    
+    }
 .page2 h1{
     font-size:7vw;
     font-weight: 500;
     color: #111;
+    padding-left: 2%;
+    padding-top: 2%;
 
 }
 .page2-container{
+   
     height: 60vh;
     width: 100%;
     /* background-color: red; */
@@ -184,14 +192,24 @@ html, body {
     align-items: center;
     justify-content: space-between;
     /* padding: 0 5vw; */
+    padding-left: 2%;
+    position: relative;
 }
 .page2-left{
     /* background-color: blue; */
     width: 40%;
+    padding-left: 2%;
+    border: 0.8px solid rgb(179, 171, 171);
+    border-left: none;
+    border-top: none;
+    border-bottom:none ;
+    
 }
 .page2-right{
     /* background-color: blue; */
     width: 44%;
+    
+    border-left: none;
 }
 .page2-left h2{
     font-size: 3vw;
@@ -210,10 +228,51 @@ html, body {
     color: #000;
   
 }
+
+.container5 {
+    height: 90vh;
+    width: 95vw;
+    margin-left: -2vw;
+    margin-top: 3%;
+    position: relative;
+}
+.glass5 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+}
+
+.op{
+    height: 15vh;
+    width: 7vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+   
+    margin-left: -9%;
+}
+.op img {
+    height: 100%;
+    width: 100%;
+    
+    z-index: 99 ;
+    position: absolute;
+}
+.redirect{
+    position: absolute;
+   margin-top: 6vh;
+    color: #000;
+    margin-left: 35%;
+}
 .redirect h2 i{
     font-size: large;
     color: #000;
     font-size: 2vw;
+    margin-top: 3vh;
     
 }
 .redirect h2 a{
@@ -310,11 +369,7 @@ margin-top: 4%;
 
 }
 
-.page2-left meter{
-    
-width:80px;
 
-}
 .emu img{
     height: 100%;
     width: 100%;
@@ -668,7 +723,7 @@ input::placeholder{
     
     position: absolute;
     margin-left: 55%;
-    margin-top: 36vh;
+    margin-top: 38.4vh;
    
 
 
@@ -710,3 +765,154 @@ input::placeholder{
     border:1px solid rgba(255, 255, 255, 0.18);
     box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
 }
+.qmj{
+    height: 10vh;
+    width: 5vw;
+    
+    border-radius: 50%;
+    margin-left: 0;
+    position: absolute;
+   margin-right: 82%;
+    margin-top: 7vh;
+    right: 0;
+    
+    
+
+}
+.qmj img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.wmk {
+
+ height: 10vh;
+    width: 7vw;
+    
+    border-radius: 50%;
+    margin-right: 65%;
+    position: absolute;
+   bottom: 0;
+   right: 0;
+    margin-bottom: 0.6vh;
+
+}
+.wmk img {
+    height: 100%;
+    width: 100%;
+    background-image: cover;
+ 
+ }
+ .eml {
+    height: 10vh;
+    width: 7vw;
+    
+    border-radius: 50%;
+    margin-right: 49%;
+    position: absolute;
+   margin-top: 7vh;
+   right: 0;
+  
+   
+
+}
+.eml img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+
+}
+.rmz{
+    height: 17vh;
+    width: 12vw;
+    
+    border-radius: 50%;
+    
+    position: absolute;
+    margin-left: 55%;
+    margin-top: 4vh;
+   
+
+
+}
+.rmz img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.tmx {
+    height: 20vh;
+    width: 10vw;
+    
+    border-radius: 50%;
+    margin-top: 20vh;
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 2.4vh;
+    
+
+}
+.tmx img {
+   height: 100%;
+   width: 100%;
+   background-image: cover;
+
+}
+.qmj h3 {
+    color: #000;
+    margin-left: -7vw;
+    position: absolute;
+    margin-top: 4vh;
+    
+
+}
+.wmk h3 {
+    color: #000;
+    margin-left: -7vw;
+    position: absolute;
+    margin-top: 4vh;
+    
+
+}
+.eml h3 {
+    color: #000;
+    margin-left: -7vw;
+    position: absolute;
+    margin-top: 4vh;
+    
+
+}
+.rmz h3 {
+    color: #000;
+    margin-left: -1.9vw;
+    position: absolute;
+    margin-top: 7.6vh;
+    
+
+}
+.tmx h3 {
+    color: #000;
+    margin-left: -2.8vw;
+    position: absolute;
+    margin-top: 8.9vh;
+    
+
+}
+.jogfalls h2 {
+    position: absolute;
+    padding-left: 42%;
+    padding-top: 3vh;
+    text-decoration: underline;
+    color: #000;
+}
+.jogfalls h3 i {
+    
+    text-decoration: underline;
+    color: #000;
+}
+
+
+
