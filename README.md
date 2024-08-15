@@ -9,3 +9,5 @@
 *GSAP,SCROLL TRIGGER & LOCOMOTIVEJS
 *CONTROLKIT(for debug panel)
 *THREEJS
+
+ LINK TO MY PORTFOLIO="https://pranavdhummansure.github.io/portfolio-main/"
