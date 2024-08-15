@@ -285,13 +285,21 @@ html, body {
     font-size: large;
     color: #000;
     font-size: 2vw;
-    
+   
+}
+.redirect1 h2 {
+    font-size: large;
+    color: #000;
+    font-size: 2vw;
+    margin-top: -9vh;
+   
 }
 .redirect1 h3 li{
     font-size: large;
     color: #000;
     font-size: 2vw;
     line-height: 8vh;
+   
     
 }
 .redirect1 h2 a{
@@ -310,11 +318,13 @@ html, body {
     margin-top: 20%;
     color: #fff;
     margin-left: 40%;
+    
 }
 .redirect2 h2 i{
     font-size: large;
     color: #ffffff;
     font-size: 2vw;
+   
     
 }
 .redirect2 h2 a{
@@ -346,6 +356,22 @@ html, body {
     position: relative;
     z-index: 9;
 }
+.container6 {
+    height: 90vh;
+    width: 95vw;
+    margin-left: 2vw;
+    margin-top: 3%;
+    position: relative;
+}
+.glass6 {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 255, 255, 0.18);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+}
 #string0 {
     height: 100px;
     
@@ -361,9 +387,10 @@ html, body {
 }
  .emu{
    height: 70vh;
-   width: 60%;
-   margin-left: 3%;
+   width: 57%;
+   margin-left: 6%;
 margin-top: 4%;
+
 
  
 
@@ -477,7 +504,7 @@ margin-top: 4%;
 
 
 .page5{
-    min-height: 100vh;
+    min-height: 120vh;
     width: 100%;
     position: relative;
     z-index: 9;

@@ -108,8 +108,8 @@ var tl3 = gsap.timeline({
         trigger: ".page1 h1",
         scroller: ".main",
         // markers:true,
-        start: "top -260%",
-        end: "top -300%",
+        start: "top -310%",
+        end: "top -330%",
         scrub: 3
     }
 })
@@ -122,8 +122,8 @@ var tl4 = gsap.timeline({
         trigger: ".page1 h1",
         scroller: ".main",
         // markers:true,
-        start: "top -580%",
-        end: "top -585%",   
+        start: "top -620%",
+        end: "top -625%",   
         scrub: 3
     }
 })
@@ -154,9 +154,9 @@ var boxes = document.querySelectorAll(".box")
 boxes.forEach(function(elem){
     elem.addEventListener("mouseenter",function(){
         var att = elem.getAttribute("data-image")
-        circle.style.width = "470px"
-        circle.style.height = "370px"
-        circle.style.borderRadius = "0"
+        circle.style.width = "200px"
+        circle.style.height = "200px"
+        circle.style.borderRadius = "20%"
         circle.style.backgroundImage = `url(${att})`
     })
     elem.addEventListener("mouseleave",function(){
@@ -254,8 +254,8 @@ gsap.from("#bulb #oneplus",{
         trigger: "#bulb #oneplus",
         scroller: ".main",
         // markers:true,
-        start: "top -280%",
-        end: "top -300%",
+        start: "top -340%",
+        end: "top -350%",
         scrub: 1
         
     }
@@ -283,8 +283,8 @@ gsap.from("#bulb #twoplus",{
         trigger: "#bulb #twoplus",
         scroller: ".main",
         
-        start: "top -280%",
-        end: "top -300%",
+        start: "top -340%",
+        end: "top -350%",
         scrub: 1
         
     }
