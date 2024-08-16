@@ -28,11 +28,11 @@ function init() {
 
 init()
 
-var circle = document.querySelector(".circle")
+var circle = document.querySelector(".cursor")
 var main = document.querySelector(".main")
 document.addEventListener("mousemove",function(dets){
-    circle.style.left = dets.x + 20+"px"
-    circle.style.top = dets.y + 20+"px"
+    circle.style.left = dets.x + 1+"px"
+    circle.style.top = dets.y + 1+"px"
 })
 
 
